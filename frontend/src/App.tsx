@@ -1,6 +1,8 @@
 import "./App.css";
+// import the college basketball data
 import collegeData from "./CollegeBasketballTeams.json";
 
+// Header Component
 function Heading() {
   return (
     <>
@@ -24,6 +26,7 @@ function College({
   state: string;
 }) {
   return (
+    // Add a little bit of styling using bootstrap
     <div className="border border-secondary rounded p-3 mb-3">
       <h2>{school}</h2>
       <h2>Mascot: {name}</h2>
